@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu img {
+  height: 100px;
+  width: 100px;
+  margin-right: 500px; /* You may adjust this value as needed */
+  margin-left: 50px;
+}
+
+.menu li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.menu a[href="#home"] {
+  color: rgb(255, 108, 108);
+}
+
+.menu a {
+  text-decoration: none;
+  color: #d6d6d6;
+  font-weight: bolder;
+  margin-right: 25px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: #333;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center; 
+  position: relative; /* Use relative positioning */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav button {
+  background-color: rgb(255, 108, 108);
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.intro {
+  position: relative;
+  padding: 20px;
+  background-image: url(img/intro\ bg.png);
+  background-size: cover; /* Ensures that the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  height: 545px;
+  align-items: center;
+}
+
+.intro h3 {
+  margin-top: 140px;
+  margin-left: 110px;
+  padding: 0;
+  color: #575757;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.intro a {
+  text-decoration: none; /* Remove underline */
+}
+.intro h4 {
+  display: inline;
+  margin-left: 100px;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 75px;
+  margin-top: 0;
+  color: white;
+}
+.engineer-text {
+  color: rgb(255, 108, 108);
+}
+.intro button {
+  background-color: rgb(255, 108, 108);
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 30px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  outline: none;
+}
+.about {
+  position: relative;
+  padding: 20px;
+  background-image: url(img/aboutbg.png);
+  background-size: cover; /*Ensures that the background image covers the entire container */
+  background-position: center; /*Centers the background image*/
+  background-repeat: no-repeat; /*Prevents the background image from repeating */
+  height: 700px;
+  align-items: center;
+}
+.about h3{
+  color: rgb(255, 108, 108);
+  margin-top: 55px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 500px;
+  margin-bottom: 5px;
+}
+.about img{
+  margin-bottom: 0px;
+  margin-top: 1px;
+  padding-bottom: 0px;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+.about button{
+  background-color: rgb(255, 108, 108);
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 500px;
+  width: 90px;
+  height: 30px;
+  margin-top: 0px;
+}
+.name{
+  color: rgb(255, 108, 108);
+}
+.about p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(218, 218, 218);
+  text-align: justify;
+  width: 500px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.a{
+  display: flex;
+}
+.skills {
+  position: relative;
+  padding: 20px;
+  background-image: url(img/skillsbg.png);
+  background-size: cover; /* Ensures that the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  height: 675px;
+  align-items: center;
+  display: flex;
+}
+.tech{
+  background-color: #242424;
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+ 
+}
+.soft{
+  background-color: #242424;
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+  margin-left: 80px;
+  margin-right: 100px;
+  
+  
+}
+.soft h3{
+  color: rgb(255, 108, 108);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 170px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px
+}
+.tech h3{
+  color: rgb(255, 108, 108);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 120px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.tech h6{
+  color: rgb(255, 108, 108);
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  margin-left: 40px;
+}
+.tech p{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.soft h6{
+  color: white;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  margin-left: 40px;
+}
+.projects {
+  position: relative;
+  padding: 20px;
+  background-image: url(img/projects.png);
+  background-size: cover; /*Ensures that the background image covers the entire container */
+  background-position: center; /*Centers the background image*/
+  background-repeat: no-repeat; /*Prevents the background image from repeating */
+  height: 1000px;
+  align-items: center;
+}
+.cup{
+  background-color: rgb(255, 108, 108);
+  margin-top: 50px;
+  width: 950px;
+  display: flex;
+  height: 300px;
+  border-radius: 50px;
+  margin-left: 170px;
+}
+.cdn{
+  background-color: rgb(255, 108, 108);
+  margin-top: 100px;
+  width: 950px;
+  display: flex;
+  height: 300px;
+  border-radius: 50px;
+  margin-left: 170px;
+}
+.cupl img{
+  width: 400px;
+  height: 220px;
+  margin-top: 24px;
+  margin-left: 47px;
+  border-radius: 25px;
+}
+.cupr img{
+  width: 400px;
+  height: 220px;
+  margin-top: 24px;
+  margin-left: 62px;
+  border-radius: 25px;
+}
+.cupl h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+margin-left: 110px;
+color: white;
+}
+.cupr h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+margin-left: 190px;
+color: white;
+}
+.cdnl img{
+  width: 400px;
+  height: 220px;
+  margin-top: 24px;
+  margin-left: 47px;
+  border-radius: 25px;
+}
+.cdnr img{
+  width: 400px;
+  height: 220px;
+  margin-top: 24px;
+  margin-left: 47px;
+  border-radius: 25px;
+}
+.cdnl h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-left: 110px;
+  color: white;
+  }
+.cdnr h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-left: 170px;
+  color: white;
+}
+.projects h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 520px;
+  color: rgb(255, 108, 108);
+}
+.contact{
+  background-color: rgb(255, 108, 108);
+  width: 1349px;
+  position: relative;
+  padding: 20px;
+  height: 300px;
+}
+.contact h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin-left: 500px;
+}
+.c {
+  display: flex;
+  
+}
+.c h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-left: 230px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.x {
+  display: flex;
+  
+}
+.x h6{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.num{
+  margin-left: 225px;
+}
+.mail{
+  margin-left: 150px;
+}
+.social{
+  margin-left: 100px;
+}
